@@ -1,6 +1,6 @@
-#TinyMCE
+# TinyMCE
 
-##Using External fonts
+## Using External fonts
 
 Here is a simple example showing how to use an external font in TinyMCE.
 
