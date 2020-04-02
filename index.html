@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.tiny.cloud/1/YOUR_API_KEY_HERE/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script type="text/javascript">
+    tinymce.init({
+      selector: "textarea",
+      plugins: [
+      "advlist autolink lists link image charmap print preview anchor",
+      "searchreplace visualblocks code fullscreen",
+      "insertdatetime media table paste"
+      ],
+      toolbar: "code undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+      content_css: "/style.css"
+    });
+  </script>
+</head>
+<body>
+  <h1>TinyMCE External Font Example</h1>
+  <textarea>
+    Welcome to TinyMCE!
+  </textarea>
+</body>
+</html>

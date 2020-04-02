@@ -1,0 +1,8 @@
+@font-face {
+  font-family: FuturaRennerRegular;
+  src: url(/fonts/FuturaRenner-Regular.otf) format('opentype');
+}
+
+body {
+   font-family: FuturaRennerRegular;
+}
